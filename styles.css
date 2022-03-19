@@ -42,13 +42,13 @@ select {
     margin-bottom: 10px;
 }
 
-#food {
+#justices {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#food > div {
+#justices > div {
     flex-basis: calc(50% - 10px);
     text-align: center;
 }
@@ -65,7 +65,7 @@ select {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
-    #food > div{
+    #justices > div{
         flex-basis: calc(33% - 10px);
     }
 }
